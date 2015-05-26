@@ -92,7 +92,7 @@
     
         //our caption formatting. note the wrapText function
         //we also always use the first element in the captions array, and flip the array when it's time to change the text.
-        x.font = "300 64px Helvetica Neue";
+        x.font = "300 60px Helvetica Neue, Helvetica, Arial, sans-serif";
         x.fillStyle = "rgba(255,255,255," + text_opacity + ")";
         wrapText(x, captions[0], text_position_x, 100, c_width - 80, 80);
         
