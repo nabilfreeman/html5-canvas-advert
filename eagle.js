@@ -25,7 +25,11 @@
     var canvas = document.createElement("canvas");
     canvas.width = c_width;
     canvas.height = c_height;
-    canvas.setAttribute("style", "background:#008cFF;width:300px;height:250px;");
+    canvas.setAttribute("style", "background:#008cFF;width:300px;height:250px;cursor:pointer;");
+
+    canvas.addEventListener("click", function(){
+        window.open("http://nownative.com", "_blank");
+    });
     
     //this should be smarter. the ideal behaviour would be to embed the canvas element exactly in the DOM where the script gets executed. you could achieve this with documentwrite, but that means sacrificing asynchronous loading.
     document.body.appendChild(canvas);
