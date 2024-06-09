@@ -1,6 +1,10 @@
 # html5-canvas-advert
 An example of using the HTML5 canvas to render a mobile-friendly animated advert.
 
+# Demo
+
+You can view this at https://legacy.freeman.sh/canvas-ad
+
 # The animation
 At Now Native we are working on some cool ad intelligence stuff.
 
